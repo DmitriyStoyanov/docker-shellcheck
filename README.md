@@ -1,4 +1,7 @@
 # Docker shellcheck
+ShellCheck, a static analysis tool for shell scripts https://www.shellcheck.net
+
+https://github.com/koalaman/shellcheck
 
 ## Repository description
 
