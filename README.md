@@ -1,3 +1,4 @@
+[![Docker Pulls](https://img.shields.io/docker/pulls/scorpio2002/shellcheck)](https://hub.docker.com/r/scorpio2002/shellcheck/tags?page=1&ordering=last_updated)
 # Docker shellcheck
 ShellCheck, a static analysis tool for shell scripts https://www.shellcheck.net
 
@@ -26,3 +27,6 @@ $ docker build --rm -t local/shellcheck .
             - shellcheck --version
             - find . -name "*.sh" | xargs shellcheck
 ```
+
+## CD
+Dockerhub integrated with this repo and triggers automatically from master branch with creating image scorpio2002/shellcheck:latest
