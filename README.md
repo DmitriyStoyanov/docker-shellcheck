@@ -29,4 +29,4 @@ $ docker build --rm -t local/shellcheck .
 ```
 
 ## CD
-Dockerhub integrated with this repo and triggers automatically from master branch with creating image scorpio2002/shellcheck:latest
+Dockerhub integrated with this repo and triggers automatically from master branch with creating image `scorpio2002/shellcheck:latest`
